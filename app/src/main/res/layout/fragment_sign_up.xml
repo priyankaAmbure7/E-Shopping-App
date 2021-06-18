@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpFragment">
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/sign_up_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/alternatephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="Alternate_Phone"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/sign_up_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="E-mail ID"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/sign_up_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/addressline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="Addressline1"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/addressline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="Addressline2"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Pin"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="City"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/landmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="Area"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="sign_up"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
